@@ -1,0 +1,22 @@
+{
+  "name": "majhirockzz/php-cms",
+  "require": {
+    "phpmailer/phpmailer": "^6.5",
+    "pusher/pusher-php-server": "^7.0",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Majhirockzz\\PhpCms\\": "src/"
+    },
+    "classmap": [
+      "classes"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sumesh Majhi",
+      "email": "sumesh.majhi.5@gmail.com"
+    }
+  ]
+}
